@@ -1,0 +1,23 @@
+.nav{
+    background-color:  #3b5998;
+    border-radius: 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+.nav-link{
+        font-size: large;
+        color: rgb(167, 58, 58);
+}
+.nav-link:hover{
+  color: yellow;
+}
+ul li {
+      color: rgb(167, 58, 58);
+      text-shadow: 1px 1px 3px black;
+      transition: color 0.3s ease-in-out;
+}
+ul li:hover {
+  color: yellow;
+}
+
+

@@ -1,0 +1,97 @@
+
+*{
+    font-family: 'poppins' , sans-serif;
+    }
+
+.anim {
+    animation: fadeInUp 1s ease;
+    }
+
+
+
+
+
+/* Stile personalizzato per il footer */
+footer {
+    background-color: transparent; /* Sfondo trasparente */
+    height: 45px; /* Altezza del footer */
+    display: flex; /* Usa il display flex per allineare il contenuto al centro verticalmente */
+    align-items: center; /* Allinea il contenuto al centro verticalmente */
+  }
+.container{
+    height: 45px;
+}
+  
+  /* Stile per la lista di icone */
+  .list-inline {
+    margin: 0; /* Rimuove il margine della lista */
+    padding: 0; /* Rimuove il padding della lista */
+    list-style-type: none; /* Rimuove il tipo di elenco della lista */
+  }
+  
+  /* Stile per ciascun elemento della lista */
+  .list-inline-item {
+    margin-right: 10px; /* Margine a destra tra gli elementi della lista */
+  }
+  
+  /* Colori specifici per i social media */
+  .list-inline-item a {
+    color: #3b5998; /* Colore ufficiale di Facebook */
+  }
+  
+  .list-inline-item a:hover {
+    color: #265282; /* Cambia colore al passaggio del mouse per Facebook */
+  }
+  
+  .list-inline-item:nth-child(2) a {
+    color: #1da1f2; /* Colore ufficiale di Twitter */
+  }
+  
+  .list-inline-item:nth-child(2) a:hover {
+    color: #0c7abf; /* Cambia colore al passaggio del mouse per Twitter */
+  }
+  
+  .list-inline-item:nth-child(3) a {
+    color: #e4405f; /* Colore ufficiale di Instagram */
+  }
+  
+  .list-inline-item:nth-child(3) a:hover {
+    color: #bc3861; /* Cambia colore al passaggio del mouse per Instagram */
+  }
+  
+  .list-inline-item:nth-child(4) a {
+    color: #0082ca; /* Colore ufficiale di LinkedIn */
+  }
+  
+  .list-inline-item:nth-child(4) a:hover {
+    color: #005b8e; /* Cambia colore al passaggio del mouse per LinkedIn */
+  }
+  
+  .list-inline-item:nth-child(5) a {
+    color: #333333; /* Colore ufficiale di GitHub */
+  }
+  
+  .list-inline-item:nth-child(5) a:hover {
+    color: #171515; /* Cambia colore al passaggio del mouse per GitHub */
+  }
+  
+
+
+    
+    /* Animazione per le stringhe introduttive */
+    @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    }
+    @media(max-width: 768px){
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+    }

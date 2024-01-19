@@ -1,0 +1,30 @@
+
+@media (max-width: 768px) {
+.contactCard {
+  padding-left: 10px; 
+  padding-right: 10px;
+  
+}
+.social-media-list{
+  justify-content: center;
+  align-items: center;
+}
+}
+
+
+
+
+
+.big-container {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.contact-form {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

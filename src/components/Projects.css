@@ -1,0 +1,66 @@
+
+    @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+.project-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.project-card {
+  height: 300px;
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto; 
+  margin-bottom: 20px;
+  box-shadow: 5px 10px 50px  #3b5998;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 5%;
+}
+.imcard{
+    float: right;
+    height: 300px;
+    width: 50% ;
+    float: left;
+    border-radius: 5%;
+}
+.cardText{
+    text-align: center;
+    width: 50%;
+    float: left;
+    word-wrap: break-word;
+    height: 300px;
+
+}
+.card-text{
+  overflow-wrap: break-word;
+  padding-right: 30px;
+}
+@media (max-width: 768px) {
+  .project-card{
+      display:flex;
+      flex-direction: row;
+      overflow: auto;
+      margin: auto;
+  }
+}
+
+  *{
+    font-family: 'poppins' , sans-serif;
+    }
+    @keyframes slideLeft {
+        from {
+          opacity: 0;
+          transform: translateX(100px); /* start from right */
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0); /* ends in the middle */
+        }
+      }
+      
+      /* Apply animation on the element */
+      .anim {
+        animation: slideLeft 1s ease;
+      }
+      

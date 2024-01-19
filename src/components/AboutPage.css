@@ -1,0 +1,44 @@
+
+h2{
+    text-align: center;
+}
+*{
+    font-family: 'poppins' , sans-serif;
+}
+
+.profile-image{
+  margin-right: 40px;
+} 
+.card-text{
+  width: 100%;
+  margin-left: 30px;
+}
+.contact-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 70vh;
+}
+
+  .anim {
+    animation: fadeInUp 1s ease;
+  }
+  
+  /* Animazione per le stringhe introduttive */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+@media(max-width: 768px){
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+}
